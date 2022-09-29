@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/fondo.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -35,12 +35,12 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #35e888;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #a62ab6;
   padding-bottom: 6px;
 }
 
@@ -123,7 +123,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #a62ab6;
 }
 
 @media (max-width: 992px) {
@@ -225,6 +225,7 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
+  letter-spacing: 1px;
 }
 
 .navbar a i,
@@ -241,7 +242,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #a62ab6;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
