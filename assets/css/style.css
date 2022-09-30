@@ -386,7 +386,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #00c7ff;
   margin: 4px 10px;
 }
 
@@ -406,7 +406,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #00c7ff;
 }
 
 .about-me .content ul {
@@ -427,7 +427,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #00c7ff;
   line-height: 0;
 }
 
@@ -458,7 +458,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #ff2fff;
   border-radius: 50px;
   line-height: 0;
 }
@@ -510,7 +510,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #18d26e;
+  background-color: #ffbb2c;
 }
 
 /*--------------------------------------------------------------
